@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodlocal2"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/btnUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userdetail"
+            android:textSize="17sp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/btnFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fooditem"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorAccent"/>
+
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:textSize="17sp"
+            android:layout_marginTop="240dp"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</android.widget.RelativeLayout>

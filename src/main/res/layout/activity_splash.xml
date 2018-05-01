@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/foodlocal2"
+tools:context=".SplashActivity">
+
+<TextView
+    android:id="@+id/textViewLogo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/LogoMain"
+    android:textSize="50sp"
+    android:textColor="@color/colorAccent"
+    android:textStyle="bold"
+    android:layout_marginTop="400dp"
+    android:gravity="center"/>
+
+<TextView
+    android:id="@+id/textViewSolgun"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="460dp"
+    android:textSize="20sp"
+    android:text="@string/devBy"
+    android:gravity="center"/>
+
+</android.widget.RelativeLayout>
